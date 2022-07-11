@@ -15,7 +15,7 @@ IntegerArray::IntegerArray(int length, int* data) : length_(length)
 	}
 	if (length <= 0)
 	{
-		cout << "Bad length exception is occurred in the method 'IntegerArray(int length)': ";
+		cout << "Bad length exception is occurred in the method 'IntegerArray(int length, int* data)': ";
 		throw BadLength(length);
 	}
 	data_ = new int[length];
